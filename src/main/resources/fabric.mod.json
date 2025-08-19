@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "freezer",
+  "version": "${version}",
+  "name": "Freezer",
+  "description": "",
+  "authors": ["Scarce Koi"],
+  "contact": {
+    "email": "scarcekoi@gmail.com",
+    "homepage": "https://github.com/scarcekoi/freezer",
+    "issues": "https://github.com/scarcekoi/freezer/issues",
+    "sources": "https://github.com/scarcekoi/freezer"
+  },
+  "issues": [""],
+  "license": "MIT",
+  "icon": "assets/freezer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "dev.scarcekoi.freezer.client.FreezerDataGenerator"
+    ],
+    "client": [
+      "dev.scarcekoi.freezer.client.FreezerClient"
+    ],
+    "main": [
+      "dev.scarcekoi.freezer.Freezer"
+    ]
+  },
+  "mixins": [
+    "freezer.mixins.json",
+    {
+      "config": "freezer.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
