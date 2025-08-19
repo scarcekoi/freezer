@@ -4,14 +4,22 @@
   "version": "${version}",
   "name": "Freezer",
   "description": "",
-  "authors": ["Scarce Koi"],
+  "authors": [
+    {
+      "name": "Scarce Koi",
+      "contact": {
+        "email": "scarcekoi@gmail.com",
+        "homepage": "https://github.com/scarcekoi"
+      }
+    }
+  ],
+  "contributors": [],
   "contact": {
     "email": "scarcekoi@gmail.com",
     "homepage": "https://github.com/scarcekoi/freezer",
     "issues": "https://github.com/scarcekoi/freezer/issues",
     "sources": "https://github.com/scarcekoi/freezer"
   },
-  "issues": [""],
   "license": "MIT",
   "icon": "assets/freezer/icon.png",
   "environment": "*",
@@ -37,5 +45,18 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.buymeacoffee": "https://buymeacoffee.com/scarcekoi",
+        "modmenu.kofi": "https://ko-fi.com/scarcekoi",
+        "modmenu.mastodon": "https://fosstodon.org/@scarcekoi",
+        "modmenu.modrinth": "https://modrinth.com/user/scarcekoi",
+        "modmenu.twitch": "https://www.twitch.tv/scarcekoi",
+        "modmenu.youtube": "https://www.youtube.com/@scarcekoi"
+      },
+      "": {}
+    }
   }
 }
