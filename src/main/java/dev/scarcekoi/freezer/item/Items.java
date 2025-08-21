@@ -20,7 +20,7 @@ public class Items {
 
     public static void registerItems() {
         Freezer.LOGGER.info("Registering Items for " + Freezer.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(WAFFLE);
         });
     }
