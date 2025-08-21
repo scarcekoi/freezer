@@ -2,5 +2,14 @@
   "item.freezer.waffle": "Waffle",
   "item.freezer.partial_chocolate_waffle": "Partially Chocolate Waffle",
   "item.freezer.half_chocolate_waffle": "Half Chocolate Waffle",
-  "item.freezer.chocolate_waffle": "Chocolate Waffle"
+  "item.freezer.most_chocolate_waffle": "Mostly Chocolate Waffle",
+  "item.freezer.chocolate_waffle": "Chocolate Waffle",
+
+  "item.freezer.frozen_waffle": "Frozen Waffle",
+  "item.freezer.frozen_partial_chocolate_waffle": "Frozen Partially Chocolate Waffle",
+  "item.freezer.frozen_half_chocolate_waffle": "Frozen Half Chocolate Waffle",
+  "item.freezer.frozen_most_chocolate_waffle": "Frozen Mostly Chocolate Waffle",
+  "item.freezer.frozen_chocolate_waffle": "Frozen Chocolate Waffle",
+
+  "itemgroup.freezer.waffles": "Waffles"
 }

@@ -1,5 +1,6 @@
 package dev.scarcekoi.freezer;
 
+import dev.scarcekoi.freezer.item.ItemGroups;
 import dev.scarcekoi.freezer.item.Items;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -12,5 +13,6 @@ public class Freezer implements ModInitializer {
     @Override
     public void onInitialize() {
         Items.registerItems();
+        ItemGroups.registerItemGroups();
     }
 }

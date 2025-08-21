@@ -23,10 +23,35 @@ public class Items {
             .food(FoodComponents.HALF_CHOCOLATE_WAFFLE)
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Freezer.MOD_ID,
                     "half_chocolate_waffle")))));
+    public static final Item MOST_CHOCOLATE_WAFFLE = registerItem("most_chocolate_waffle", new Item(new Item.Settings()
+            .food(FoodComponents.MOST_CHOCOLATE_WAFFLE)
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Freezer.MOD_ID,
+                    "most_chocolate_waffle")))));
     public static final Item CHOCOLATE_WAFFLE = registerItem("chocolate_waffle", new Item(new Item.Settings()
             .food(FoodComponents.CHOCOLATE_WAFFLE)
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Freezer.MOD_ID,
                     "chocolate_waffle")))));
+
+    public static final Item FROZEN_WAFFLE = registerItem("frozen_waffle", new Item(new Item.Settings()
+            .food(FoodComponents.FROZEN_WAFFLE)
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Freezer.MOD_ID,
+                    "frozen_waffle")))));
+    public static final Item FROZEN_PARTIAL_CHOCOLATE_WAFFLE = registerItem("frozen_partial_chocolate_waffle", new Item(new Item.Settings()
+            .food(FoodComponents.FROZEN_PARTIAL_CHOCOLATE_WAFFLE)
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Freezer.MOD_ID,
+                    "frozen_partial_chocolate_waffle")))));
+    public static final Item FROZEN_HALF_CHOCOLATE_WAFFLE = registerItem("frozen_half_chocolate_waffle", new Item(new Item.Settings()
+            .food(FoodComponents.FROZEN_HALF_CHOCOLATE_WAFFLE)
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Freezer.MOD_ID,
+                    "frozen_half_chocolate_waffle")))));
+    public static final Item FROZEN_MOST_CHOCOLATE_WAFFLE = registerItem("frozen_most_chocolate_waffle", new Item(new Item.Settings()
+            .food(FoodComponents.FROZEN_MOST_CHOCOLATE_WAFFLE)
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Freezer.MOD_ID,
+                    "frozen_most_chocolate_waffle")))));
+    public static final Item FROZEN_CHOCOLATE_WAFFLE = registerItem("frozen_chocolate_waffle", new Item(new Item.Settings()
+            .food(FoodComponents.FROZEN_CHOCOLATE_WAFFLE)
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Freezer.MOD_ID,
+                    "frozen_chocolate_waffle")))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Freezer.MOD_ID, name), item);
@@ -34,11 +59,5 @@ public class Items {
 
     public static void registerItems() {
         Freezer.LOGGER.info("Registering Items for " + Freezer.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
-            entries.add(WAFFLE);
-            entries.add(PARTIAL_CHOCOLATE_WAFFLE);
-            entries.add(HALF_CHOCOLATE_WAFFLE);
-            entries.add(CHOCOLATE_WAFFLE);
-        });
     }
 }

@@ -22,6 +22,13 @@ public class ModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Items.WAFFLE, Models.GENERATED);
         itemModelGenerator.register(Items.PARTIAL_CHOCOLATE_WAFFLE, Models.GENERATED);
         itemModelGenerator.register(Items.HALF_CHOCOLATE_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.MOST_CHOCOLATE_WAFFLE, Models.GENERATED);
         itemModelGenerator.register(Items.CHOCOLATE_WAFFLE, Models.GENERATED);
+
+        itemModelGenerator.register(Items.FROZEN_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.FROZEN_PARTIAL_CHOCOLATE_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.FROZEN_HALF_CHOCOLATE_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.FROZEN_MOST_CHOCOLATE_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.FROZEN_CHOCOLATE_WAFFLE, Models.GENERATED);
     }
 }
