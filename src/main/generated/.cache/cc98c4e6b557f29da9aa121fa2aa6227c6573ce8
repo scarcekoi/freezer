@@ -1,3 +1,9 @@
 // 1.21.4	-999999999-01-01T00:00:00	Freezer/Model Definitions
+58eccd5eebeaef9dda0acc1096e4db0decf98dac assets/freezer/items/chocolate_waffle.json
+ca65b94c1f623e77ca97086ca3656abd89cf2027 assets/freezer/items/half_chocolate_waffle.json
+08ef5f8d761ebe7e9482947386364904aaa173be assets/freezer/items/partial_chocolate_waffle.json
 ae54e1e1f9f87ec8f4556014eeed6226527e3ec6 assets/freezer/items/waffle.json
+6dc7b0bd94eea2eb7ca8e86080c0456782e8af55 assets/freezer/models/item/chocolate_waffle.json
+957b9997f1fcb8237dad4202f73d4d12073714d0 assets/freezer/models/item/half_chocolate_waffle.json
+0823bac2fe98653ed38d0f310dc7597dc4144167 assets/freezer/models/item/partial_chocolate_waffle.json
 8929f7c28053da702ec9cb6f0eb22be904111070 assets/freezer/models/item/waffle.json

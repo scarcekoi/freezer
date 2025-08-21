@@ -20,5 +20,8 @@ public class ModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(Items.WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.PARTIAL_CHOCOLATE_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.HALF_CHOCOLATE_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.CHOCOLATE_WAFFLE, Models.GENERATED);
     }
 }

@@ -1,3 +1,6 @@
 {
-  "item.freezer.waffle": "Waffle"
+  "item.freezer.waffle": "Waffle",
+  "item.freezer.partial_chocolate_waffle": "Partially Chocolate Waffle",
+  "item.freezer.half_chocolate_waffle": "Half Chocolate Waffle",
+  "item.freezer.chocolate_waffle": "Chocolate Waffle"
 }
