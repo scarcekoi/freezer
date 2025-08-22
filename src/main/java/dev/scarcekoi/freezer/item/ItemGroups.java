@@ -22,6 +22,24 @@ public class ItemGroups {
                         entries.add(Items.MOST_CHOCOLATE_WAFFLE);
                         entries.add(Items.CHOCOLATE_WAFFLE);
 
+                        entries.add(Items.PARTIAL_CHOCOLATE_CHIP_WAFFLE);
+                        entries.add(Items.HALF_CHOCOLATE_CHIP_WAFFLE);
+                        entries.add(Items.MOST_CHOCOLATE_CHIP_WAFFLE);
+                        entries.add(Items.CHOCOLATE_CHIP_WAFFLE);
+
+                        entries.add(Items.PARTIAL_BLUEBERRY_WAFFLE);
+                        entries.add(Items.HALF_BLUEBERRY_WAFFLE);
+                        entries.add(Items.MOST_BLUEBERRY_WAFFLE);
+                        entries.add(Items.BLUEBERRY_WAFFLE);
+
+                        entries.add(Items.FROZEN_PARTIAL_CHOCOLATE_CHIP_WAFFLE);
+                        entries.add(Items.FROZEN_HALF_CHOCOLATE_CHIP_WAFFLE);
+                        entries.add(Items.FROZEN_MOST_CHOCOLATE_CHIP_WAFFLE);
+                        entries.add(Items.FROZEN_CHOCOLATE_CHIP_WAFFLE);
+                        entries.add(Items.FROZEN_PARTIAL_BLUEBERRY_WAFFLE);
+                        entries.add(Items.FROZEN_HALF_BLUEBERRY_WAFFLE);
+                        entries.add(Items.FROZEN_MOST_BLUEBERRY_WAFFLE);
+                        entries.add(Items.FROZEN_BLUEBERRY_WAFFLE);
                         entries.add(Items.FROZEN_WAFFLE);
                         entries.add(Items.FROZEN_PARTIAL_CHOCOLATE_WAFFLE);
                         entries.add(Items.FROZEN_HALF_CHOCOLATE_WAFFLE);

@@ -25,6 +25,24 @@ public class ModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Items.MOST_CHOCOLATE_WAFFLE, Models.GENERATED);
         itemModelGenerator.register(Items.CHOCOLATE_WAFFLE, Models.GENERATED);
 
+        itemModelGenerator.register(Items.PARTIAL_CHOCOLATE_CHIP_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.HALF_CHOCOLATE_CHIP_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.MOST_CHOCOLATE_CHIP_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.CHOCOLATE_CHIP_WAFFLE, Models.GENERATED);
+
+        itemModelGenerator.register(Items.PARTIAL_BLUEBERRY_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.HALF_BLUEBERRY_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.MOST_BLUEBERRY_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.BLUEBERRY_WAFFLE, Models.GENERATED);
+
+        itemModelGenerator.register(Items.FROZEN_PARTIAL_CHOCOLATE_CHIP_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.FROZEN_HALF_CHOCOLATE_CHIP_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.FROZEN_MOST_CHOCOLATE_CHIP_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.FROZEN_CHOCOLATE_CHIP_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.FROZEN_PARTIAL_BLUEBERRY_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.FROZEN_HALF_BLUEBERRY_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.FROZEN_MOST_BLUEBERRY_WAFFLE, Models.GENERATED);
+        itemModelGenerator.register(Items.FROZEN_BLUEBERRY_WAFFLE, Models.GENERATED);
         itemModelGenerator.register(Items.FROZEN_WAFFLE, Models.GENERATED);
         itemModelGenerator.register(Items.FROZEN_PARTIAL_CHOCOLATE_WAFFLE, Models.GENERATED);
         itemModelGenerator.register(Items.FROZEN_HALF_CHOCOLATE_WAFFLE, Models.GENERATED);
